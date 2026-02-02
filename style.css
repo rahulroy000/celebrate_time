@@ -1,0 +1,32 @@
+body {
+        margin: 0;
+        height: 100vh;
+        background: #92211e; 
+        overflow: hidden;
+        cursor: none;
+    }
+
+    #text {
+        /* position: absolute; */
+        color: white;
+        font-size: 46px;
+        font-family: Georgia, serif;
+        pointer-events: none;
+        text-align: center;
+        margin-top: 20%;
+        /* transform: translate(-50%, -50%);
+        transition: transform 0.1s linear; */
+    }
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    margin: 5%;
+    letter-spacing: 0.1ch;
+}
